@@ -1,0 +1,5 @@
+git init //cria a pasta oculta
+vai e cria o repositorio no git
+git remote add origin https://github.com/GuilhermeKulyk/cursophp7-dao.git (tecla insert)
+git pull origin master //faz com que baixe tudo, mas nao vai achar nada la
+e
