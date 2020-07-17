@@ -18,8 +18,17 @@ require_once("config.php");
 //echo json_encode($lista);
 
 //CARREGA UM USUÁRIO USANDO LOGIN E SENHA
+//$usuario = new Usuario();
+//$usuario->login("Usuario", "teste");
+
+//echo $usuario;
+
 $usuario = new Usuario();
-$usuario->login("Usuario", "teste");
+
+$usuario->loadById(3);
+
+$usuario->update("Professor","Xavier");
 
 echo $usuario;
+
 ?>
