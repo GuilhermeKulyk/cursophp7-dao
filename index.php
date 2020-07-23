@@ -22,12 +22,14 @@ require_once("config.php");
 //$usuario->login("Usuario", "teste");
 
 //echo $usuario;
+//update no usuario
+//$usuario = new Usuario();
+//$usuario->loadById(3);
+//$usuario->update("Professor","Xavier");
 
 $usuario = new Usuario();
-
-$usuario->loadById(3);
-
-$usuario->update("Professor","Xavier");
+$usuario->loadById(7);
+$usuario->delete();
 
 echo $usuario;
 
